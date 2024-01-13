@@ -1,3 +1,5 @@
+"-CC:\Users\Mowin\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17/etc/avrdude.conf" -v -V -pm328p -carduino "-PCOM3" -b115200 -D -Uflash:w:"$(ProjectDir)Debug\$(TargetName).hex":i
+
 
 
 Button: D2/PD2 and D3/PD3
