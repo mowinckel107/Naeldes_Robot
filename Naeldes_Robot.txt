@@ -1,0 +1,56 @@
+
+
+Button: D2/PD2 and D3/PD3
+	
+PWM signal_1: D6/PD6 (Left Motor)
+PWM signal_2: D11/PB3 (Right Motor)
+
+H Bridge Control 1: D7/PD7, D8/PB0, D9/PB1, D10/PB2 (Top left, bottom left, top right, bottom right) (Left Motor)
+H Bridge Control 2: A3/PC3, A2/PC2, A1/PC1, A0/PC0 (Top left, bottom left, top right, bottom right) (Right Motor)
+
+
+Button test:
+
+
+PWM signals:
+- Light test
+Seems Correct
+- Analog discovery test
+
+
+- - - Test of H-bridge 1:¨
+- Forward:
+D7  off
+D8  on
+D9  off
+D10 on
+Seems Correct
+
+- Backwards
+D7  on
+D8  off
+D9  on
+D10 off
+Seems Correct
+
+- - - Test of H-bridge 2:
+- Forward:
+A3 off
+A2 on
+A1 off
+A0 on
+Seems Correct
+
+- Backwards
+A3 on
+A2 off
+A1 on
+A0 off
+Seems Correct
+
+
+
+
+
+
+
